@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+.header{
+    margin-top: -570px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: 700;
+}
+.title{
+    font-size: 47;
+    font-weight: 300;
+}
+.btn-start-test{
+    color: #fff;
+    background-color:#996972;
+    border-radius:45px;
+    border: none;
+    padding: 0 40px;
+    padding-bottom:5px;
+    font-size: 40px;
+    margin: 110px 0;
+}
+.btn-start-test:hover{
+    background-color:#836471;
+    transition: 0.5s;
+}
+.personal{
+    font-size: 15px;
+    margin-top: 30px;
+}
+svg{
+    width:20px;
+    height:20px;
+    margin: 4px;
+}
+span{
+    font-weight: bold;
+}
+.social{
+    color:white;
+    text-decoration: none;
+}
+.social:hover{
+    color:#836471;
+    transition: 0.5s;
+}
+
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .bg-img{
+        object-position: 50% 60%;
+    }
+    .header{
+        margin-top: -650px;
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 30;
+    }
+    .btn-start-test{
+        font-size: 30px;
+        margin: 100px 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header{
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 40;
+    }
+    .btn-start-test{
+        font-size: 30px;
+        margin: 90px 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header{
+        font-size: 75px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 50;
+    }
+    .btn-start-test{
+        font-size: 40px;
+        margin: 90px 0;
+    }
+}

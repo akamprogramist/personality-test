@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4A394E;
+    color: white;
+}
+.qns{
+    margin:5vw 19vw;
+    font-size: 30px;
+    font-weight: 500;
+}
+.btns{
+    color:#fff;
+    background-color: #6D4E5E;
+    border:none;
+    border-radius: 25px;
+    margin:0.5vw 17vw;
+    padding: 0.5vw ;
+    text-transform:capitalize ;
+    font-size: 25px;
+    font-weight: 500;
+}
+.btns:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.header{
+    font-size: 6vw;
+    font-weight: 700;
+    margin: 5vw;
+    margin-bottom: 6vw;
+}
+.score-text{
+    font-size: 4vw;
+    font-weight: 400;
+}
+.score{
+    font-size: 8vw;
+    margin: 20px;
+}
+.counter{
+    font-weight: 700;
+}
+
+
+.personal{
+    font-size: 15px;
+    margin-top: 15vw;
+}
+svg{
+    width:20px;
+    height:20px;
+    margin: 4px;
+}
+span{
+    font-weight: bold;
+}
+.social{
+    color:white;
+    text-decoration: none;
+}
+.social:hover{
+    color:#836471;
+    transition: 0.5s;
+}
+
+.q{
+    display: none;
+}
+.q.active{
+    display: block;
+}
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .qns{
+        font-size: 25px;
+    }
+    .btns{
+        font-size:18px;
+        padding: 10px 20px;
+        margin: 5px 40px;
+    }
+    .header{
+        font-size: 60px;
+        margin: 50px;
+        margin-bottom: 60px;
+    }
+    .score-text{
+        font-size: 50px;
+    }
+    .score{
+        display: flex;
+        font-size: 80px;
+        margin: 30px;
+        justify-content: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .qns{
+        font-size: 25px;
+    }
+    .btns{
+        font-size:18px;
+        padding: 0 20px;
+    }
+    .header{
+        font-size: 60px;
+        margin: 50px;
+        margin-bottom: 60px;
+    }
+    .score-text{
+        font-size: 50px;
+        margin: 10px;
+    }
+    .score{
+        display: flex;
+        font-size: 80px;
+        margin: 40px;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .qns{
+        font-size: 25px;
+    }
+    .btns{
+        font-size:18px;
+        padding: 0 20px;
+    }
+    .header{
+        font-size: 60px;
+        margin: 50px;
+        margin-bottom: 50px;
+    }
+    .score-text{
+        font-size: 50px;
+        margin: 10px;
+    }
+    .score{
+        display: flex;
+        font-size: 80px;
+        margin: 20px;
+        justify-content: center;
+    }
+}
